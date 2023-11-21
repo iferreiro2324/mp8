@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, "Helvetica", sans-serif;
+    margin: 0px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+p { 
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1, p {
+    width: 350px;
+    margin: 0px;
+    padding: 25px;
+
+}
+a {
+    text-decoration: none;
+}
+#menu {
+    background-color: #FFF;
+    height: 40px;
+}
+ul{
+    display: inline-block;
+}
+li {
+    display: inline;
+    margin: 0 25px 0 0;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    background-color: #6c3;
+}
+#coneix {
+    background-color: #6c3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#tot {
+    background-color: #FFF;
+    height: 641px;
+    background-image: url(img/allinone.jpg);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#util {
+    background-color: #333;
+    height: 500px;
+    color: #FFF;
+    background-image: url(img/curator-short.png);
+    background-repeat: no-repeat;
+    background-position: 425px 0;
+}
+#rapid {
+    background-color: #EEECEE;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#facil {
+    background-color: #6c3;
+    height: 550px;
+    background-image: url(img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px 25px;
+}
+#arreu {
+    background-color: #EEECEE;
+    height: 643px;
+    background-image: url(img/anywhere.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#canvia {
+    background-color: #333;
+    height: 200px;
+    text-align: center;
+}
+img {
+    margin: 25px;
+    display: inline;
+}
+#menu img {
+    margin: 0px;
+    display: inline;
+}
+#canvia img {
+    margin: 25px;
+    display: inline;
+}
+#tornar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 125px;
+}

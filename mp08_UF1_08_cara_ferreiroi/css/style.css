@@ -1,0 +1,244 @@
+*{
+    position: relative;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 900px;
+    height: 1500px;
+}
+body{
+    background-color: rgb(255, 204, 123);
+    animation: nariz 2s;
+    animation: fondo 10s linear infinite alternate both;
+}
+h1{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+h1:hover{
+    color: white;
+}
+.melenatras {
+    width: 500px;
+    height: 750px;
+    background-color: black;
+    border-radius:250px 250px 250px 250px / 250px 250px 500px 500px  ;
+    position: relative; 
+}
+.melenatras2 {
+    width: 500px;
+    height: 750px;
+    background-color: black;
+    border-radius:250px 250px 250px 250px / 250px 250px 500px 500px  ;
+    left: 125px;
+    position: relative; 
+}
+.melenatras3{
+    width: 490px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50% 50% 25% 25% / 50% 50%  ;
+    left: 70px;
+    top: 20px;
+    position: absolute;
+    z-index: 3; 
+}
+.melenatras3:hover{
+    height: 350px;
+}
+
+.melenatras4{
+    width: 100px;
+    height: 525px;
+    background-color: black;
+    border-radius: 50% 50px 25% 25% / 25% 25%  ;
+    left: 50px;
+    top: 60px;
+    position: absolute;
+    z-index: 3; 
+}
+.melenatras5{
+    width: 100px;
+    height: 525px;
+    background-color: black;
+    border-radius: 50% 50px 25% 25% / 25% 25%  ;
+    left: 480px;
+    top: 60px;
+    position: absolute;
+    z-index: 3; 
+}
+.melenatras6{
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50% 50px 25% 25% / 25% 25%  ;
+    left: 100px;
+    top: 130px;
+    position: absolute;
+    z-index: 4; 
+    rotate: 20deg;
+}
+.melenatras7{
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50% 50px 25% 25% / 25% 25%  ;
+    left: 430px;
+    top: 130px;
+    position: absolute;
+    z-index: 4; 
+    rotate: -20deg;
+}
+.coll{
+    width: 125px;
+    height: 200px;
+    background-color: rgb(245, 214, 180);
+    position: absolute;
+    border-radius: 0 0 15% 15%;
+    left: 255px;
+    bottom: -100px;
+    z-index: 1;
+}
+.samarreta{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50% 50% 25% 25% / 50% 50% 25% 25%  ;
+    left: 120px;
+    bottom: -40px;
+    z-index: 0;
+}
+.samarreta:hover{
+    background-color: orange;
+}
+
+.cap{
+    width: 500px;
+    height: 725px;
+    background-color: bisque;
+    border-radius:250px 250px 250px 250px / 250px 250px 500px 500px  ;
+    position: relative;
+    margin-left: 100px;
+    top: -725px;
+    left: -30px;
+    z-index: 1;
+}
+.pel{
+    height: 200px;
+    background-color: lack;
+    border-radius: 350px 350px 200px 200px;
+
+}
+.front{
+    height: 50px;  
+}
+.celles{
+    height: 40px;
+}
+.cellal{
+    height: 25px;
+    width: 125px;
+    background-color: black;
+    float: left;
+    margin-left: 80px;
+    border-radius: 35px 350px 200px 200px/ 400px 500px 500px 200px;
+}.cellar{
+    height: 25px;
+    width: 125px;
+    background-color: black;
+    float: left;
+    margin-left: 80px;
+    border-radius: 350px 35px 200px 200px/ 500px 400px 500px 200px;
+}
+.ulls{
+    height: 50px;
+    
+}
+.ulll, .ullr{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 95px;
+    border-radius: 40%;
+    background: radial-gradient(circle at center, rgb(255, 255, 255), #ffffff, rgb(218, 218, 218) 99%);
+}
+.irisl, .irisr{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(76, 153, 76);
+    float: left;
+    margin-left: 35px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgb(90, 200, 90), #2ba058, black 95%);
+}
+.pupilal, .pupilar{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    float: left;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 50%; 
+}
+.nas{
+    height: 120px;
+
+}
+.nass{
+    height: 150px;
+    width: 50px;
+    background-color: rgb(255, 216, 195);
+    margin-left: 215px ;
+    margin-top: 20px;
+    border-radius: 350px 350px 200px 200px;
+
+}
+.nass:hover{
+    animation: nariz 2s;
+}
+.boca{
+    height: 50px;
+    width: 120px;
+    background-color: #ff9775;
+    border-radius: 30% 30% 40% 40%/4% 4% 40% 40%;
+    margin-left: 185px ;
+    margin-top: 60px;
+}
+.dents{
+    height: 15px;
+    width: 120px;
+    background-color: white;
+    border-radius: 30% 30% 0% 0%/4% 4% 0% 0%;
+    margin-left: 0px ;
+    margin-top: 80px;
+    z-index: 4;
+}
+.boca:hover, .dents:hover{
+    background-color: bisque;
+}
+@keyframes nariz {
+    0%{
+        transform: translateY(-800px) scaleY(-1);
+    }
+    100{
+        transform: translateY(800px) scaleY(-1);
+    }
+}
+@keyframes fondo{
+    0%{
+        background: rgb(209, 255, 141);
+    }
+    33%{
+        background: rgb(255, 132, 132);
+    }
+    66%{
+        background: rgb(158, 158, 255);
+    }
+    100%{
+        background: #ff9775;
+    }
+}

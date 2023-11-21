@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 3.125rem;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.barra{
+    height: 3.125rem;
+    background-color: rgba(44, 44, 44,0.5);
+    color: #ccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    
+}
+.logo{
+    padding-top: 0.6875rem;
+    padding-left: 1.25rem;
+    padding-right: 3.125rem;
+    float: left;
+}
+.titol{
+    font-size: 1.375rem;
+    clear: both;
+    padding-left: 1.25rem;
+    padding-top: 0.3125rem;
+
+}
+
+.doc,.soc{
+    float: left;
+    margin-top: 1.563rem;
+    padding: 0 0.3125rem;
+}
+
+.soc{
+    float: right;
+}
+
+.doc:hover, .soc:hover{
+    color: white;
+}
+
+
+
+
+.peli{
+    float: left;
+    height: 16.25rem;
+    width: 10.938rem;
+    margin: 0;
+    margin-bottom: 3.75rem;
+    padding-bottom: 0.938rem;
+    padding-left: 1.25rem;
+    padding-top: 0.625;
+
+}
+img{
+    border-radius: 0.3125rem;
+}
+.img:hover{
+    opacity: 50%;
+}
+h4{
+    height: 1.25rem;
+    width: 100%;
+    font-size: 0.875rem;
+    margin-top: 0.3125rem;
+    color: #ccc;
+}
+h5{
+    float: left;
+    height: 1.25rem;
+    width: 50%;
+    font-size: 0.688rem;
+    margin-top: 0;
+    color: #ccc;
+}
+h6{
+    float: right;
+    height: 1.25rem;
+    width: 50%;
+    font-size: 0.688rem;
+    margin-top: 0;
+    text-align: right;
+    color: #ccc;
+}

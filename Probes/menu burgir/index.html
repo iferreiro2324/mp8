@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *, *:after, *:before{
+            margin: 0;
+            padding: 0;
+        }
+
+        body div{
+
+        }
+        div > .classe{
+
+        }
+
+        .primernivell{
+            background: red;
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .primernivell:hover > .secundaria{
+            display: block;
+        }
+        .secundaria{
+            display: none;
+            background: blue;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+    
+
+        }
+        .segonnivell{
+            background: orange;
+            display: block;
+            font-size: 0.85rem;
+            top: 2rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+        }
+        .segonnivell:hover{
+            background-color: black;
+        }
+        .classe01nivell{
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul class="navegacio">
+        <li class="primernivell">Opció 1
+            <ul class="secundaria">
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 2
+            <ul class="secundaria">
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 3
+            <ul class="secundaria">
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 4
+            <ul class="secundaria">
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+            </ul>
+        </li>
+        <li class="primernivell">Opció 5
+            <ul class="secundaria">
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+                <li class="segonnivell">Sub-Opció</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
