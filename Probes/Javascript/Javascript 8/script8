@@ -1,0 +1,15 @@
+
+       function sol() {
+            document.body.style.background="lightyellow";
+
+            document.getElementById("luna").style.background="lightyellow"
+        }
+        function luna() {
+            document.body.style.background="black";
+
+            document.getElementById("luna").style.background="black"
+        }
+
+
+        document.getElementById("sol").addEventListener("click",sol);
+        document.getElementById("luna").addEventListener("click",luna);

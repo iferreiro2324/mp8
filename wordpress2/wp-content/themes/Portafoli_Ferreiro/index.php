@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Izan Ferreiro Raya</title>
+
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/style.css" />
+    <link rel="icon" href="cursor.cur">
+</head>
+<body>
+    <div class="fondo"></div>
+
+    <div class="barra">
+        <div class="portfolio">
+            <h2>Mi Portfolio</h2>
+            <div id="instagram"></div>
+            <ul class="navegacion"></ul>
+            <div class="barrita"></div>
+        </div>
+    </div>
+
+    <div class="sobremi">
+        <div class="estus"></div>
+        <h4>IZAN FERREIRO RAYA</h4>
+        <h5>Soy Izan, estudio diseño y publicación de productos impresos y multimedia. Este es mi portfolio personal donde podrás descubrir las cosas que me gustan y ver algunos de los proyectos en los que trabajo a diario.</h5>
+        <div class="play"></div>
+    </div>
+
+    <div class="madera"></div>
+    <div class="linternas"></div>
+    
+
+    <ul>
+        <a href="mp08_UF1_01_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Inici</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_02_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Horari</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_03_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Feedly</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_04_ifpagram_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Ifpagram</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_05_escacs_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Escacs</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_06_absolute_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Absolute</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_07_floreta_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Floreta</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_08_cara_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Cara</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_09_photoshop_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Photoshop</h1>
+            </li>
+        </a>
+        <a href="mp08_UF1_10_pelys_ferreiroi/index.html">
+            <li class="practica">
+                <h1>Pelys</h1>
+            </li>
+        </a>
+    </ul>
+    
+</body>
+</html>
